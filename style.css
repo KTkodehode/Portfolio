@@ -1,47 +1,44 @@
 * {
     margin: 0;
 }
-.navSvg {
-    float:right;
-    margin: 0;
-    padding:0;
-    /* margin-left: 400px; */
+.navbar li{
+font-size: 50px;
+display: flex;
+margin: 40px;
+}
+.navbar li:hover{
+    /* filter: invert(91%) sepia(16%) saturate(1728%) hue-rotate(340deg) brightness(137%) contrast(227%); */
+    color: greenyellow;
+}
+.navbar ul{
+    position: absolute;
+    color: rgb(214, 204, 250);
 
+}
+.navParent {
+    display: flex;
+    justify-content: center;
+}
+.svgParent {
+    text-align: right;
+    margin-left: 100px;
     
 }
-.navSvg:hover{
-    filter: invert(52%) sepia(10%) saturate(1061%) hue-rotate(131deg) brightness(94%) contrast(96%);
+/** Hvorfor Hover popper "projects og about" men ikke Contact */
+.top-section li:hover {
+    /* filter: invert(39%) sepia(53%) saturate(414%) hue-rotate(147deg) brightness(89%) contrast(85%); */
+    font-size: 80px;
 }
-.topNav-list-items {
-    list-style: none;
-    display: flex;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    float: right;
-    
+section {
+    background: rgb(54, 24, 88);
+    width: 100%;
 }
 
-.topNav-list-items div {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 450px;
-    z-index: 1;
-
-}
-.topNav-list-items div li {
-    padding: 10px;
-    /* margin-left: 250px; */
-    z-index: 1;
-}
-/* #about:hover {
-color:wheat;
+/** Hvorfor går det ikke an å hoover med liste */
+/* svg:hover{
+    filter: sepia(53%) saturate(414%) hue-rotate(147deg) brightness(89%);
+    z-index: -1;
 } */
-
-.test {
-    display: flex;
-    position: relative;
-
-}
-.navbar {
-    z-index: 1;
+.second-section {
+    margin-top: 200px;
 }
